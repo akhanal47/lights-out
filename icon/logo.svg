@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <mask id="moon-mask">
+      <rect width="128" height="128" fill="white"/>
+      <circle cx="82" cy="46" r="36" fill="black"/>
+    </mask>
+  </defs>
+  <circle cx="56" cy="64" r="40" fill="rgb(255, 162, 0)" mask="url(#moon-mask)"/>
+</svg>
