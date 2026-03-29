@@ -15,6 +15,16 @@ function partialDark() {
       color: #e8e8e8 !important;
     }
     a { color: #8ab4f8 !important; }
+
+    [class*="dark-grey"], [class*="graphite"], [class*="text-module"], [class*="title"] {
+      color: #e8e8e8 !important;
+    }
+    
+    [class*="context-widget-module"], [class*="summary-module"], [data-testid="ContextWidget"], [data-testid="TabContainer"] {
+      background-color: #1d1d1d !important;
+      background-image: none !important;
+    }
+
   `;
 }
 
